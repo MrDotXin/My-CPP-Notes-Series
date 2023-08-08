@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        
+    
+    {
+        "name": "(Windows) 启动",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${fileDirname}/C++20实战入门/foo.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "console": "externalTerminal",
+        "preLaunchTask": "msvc debug"
+    }
+    ]
+}

@@ -1,0 +1,33 @@
+brace :
+enclose :
+parethes :
+sepcify :
+defects :
+dwell :
+notation : 符号，记号，谱号
+curly : 卷曲的; 有鬈发(或毛)的; 拳曲状的
+flagrant : 骇人听闻的; 公然的; 罪恶昭彰的
+inadvertent : 无意的; 并非故意的; 因疏忽造成的
+crystal clear :
+precede :
+respectively : 分别地; 分别; 各自; 顺序为; 依次为
+implie :
+denominator :
+numerator :
+reminder :
+operand : 操作数; 运算数
+precedence : 优先， 优先权
+associativity : 结合性
+sequence : 顺序，次序，序列，一系列
+postfix : 后缀
+vacate : 腾出，空出(空间)， 让出
+propagate : 传播， 宣传， 增殖， 繁殖
+manipulate : 操纵; (暗中)控制; 影响; (熟练地)操作; 使用; 正骨; 治疗脱臼
+at hand : 在手边， 即将来临
+flip : 转换
+scope : n. 	(题目、组织、活动等的)范围; (做或实现某事的)机会，能力; …镜(观察仪器);
+        vt. 仔细看; 彻底检查
+scale :
+prompt : n : 提示符 v :促使， 导致， 激励， 
+squish : 挤压， 压扁， 压坏， 发出嘎吱声
+nested : 嵌套

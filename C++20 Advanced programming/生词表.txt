@@ -1,0 +1,103 @@
+as opposed to : 而不是
+annotated bibliography : 书目; 注释目录; 书目评注; 解题书目; 注解书目
+snippet : 一小条(消息); 一则(新闻); 一小段(谈话、音乐等)
+verbose : 冗长的; 啰唆的; 唠叨的
+coerce  : vt. 胁迫; 强迫; 迫使
+fractional :adj. 很小的; 很少的; 微不足道的; 分数的; 小数的
+denote : 标志; 预示; 象征; 表示; 意指
+mechanism : 机械装置; 机件; 方法; 机制; (生物体内的)机制，构造
+vendor-specific : 商的; 供应商特定
+elite : adj 杰出的,精英的; 精锐的
+underlying : 根本的; 潜在的; 隐含的; 表面下的; 下层的
+escape sequence : 转义序列; 转义字符; 换码序列
+leverage : 对...产生影响
+orders of magnitude : 数量级
+magnitude : 巨大; 重大; 重要性; 星等; 星的亮度; 震级
+performant : （计算机）性能好的，运作良好的
+representation : 表现; 描述; 描绘; 表现形式
+extract : 
+whip : 鞭策， 快速除去， 抽出， 打（奶油）
+whip together : 纠集
+hypothetical : 基于假设的, 有待证实的
+intern : 实习生; 实习医生; 实习学生; 毕业实习生
+tenets : 原则; 信条; 教义
+rework : 返工; 重做; 修改; 再加工
+redundant : 冗余的; 多余的; 被裁减的; 不需要的
+intermediate : adj. 中间的; 中级的; (两地、两物、两种状态等)之间的; 中等的; 适合中等程度者的, n, v
+derogatory : 贬低的; 贬义的
+rule of thumb : (根据实际经验的)粗略估算;经验之谈; 经验法则
+squint : v. 斜视; 瞇着眼睛看; (人)患斜视 adj. n.
+in the zone : 进入状态
+amend : 修正; 修订(法律文件、声明等)
+cruft : 令人讨厌的东西
+wacky : 古怪的; 滑稽可笑的; 疯疯癫癫的
+transcend  : 超越; 超出(通常的界限)
+transcendental : 超验的，越一般常识（或信念）的; 卓越的，杰出的; 
+                （尤指宗教或精神方面）超凡的，玄奥的; <哲>先验（论）的，
+                超验（主义）的; 抽象的，晦涩难懂的; <数>超越的，超越函数的; 
+libral : 宽宏大度的; 心胸宽阔的; 开明的, 慷慨的
+overly : 过度的, 很; 十分; 过于
+convolute : 包卷型的；回旋形的; 迂曲的；蜷曲的, 绕弯子的
+convoluted : 晦涩难懂的; 错综复杂的
+phase : 阶段; 时期; 月相; (月亮的)盈亏 v.分阶段进行; 逐步做
+archtecture : 建筑学; 体系结构; 建筑设计; 建筑风格; (总体、层次)结构
+specification : 规格; 规范; 明细单; 说明书
+gross : 总的; 毛的; 严重的; 令人不快的; 令人恶心的; 使人厌恶的; 粗鲁的; 肥胖而丑陋的
+subdivision : 再分割; 再分; 细分; 进一步分成的部分; 分支; 分部; (分割成小块的)建房土地
+hierarchies : 层次体系, 等级制度(尤指社会或组织); 统治集团; 
+agile : (动作)敏捷的; 灵活的; (思维)机敏的; 机灵的 (agile methodology 敏捷建模)
+methodology : 方法论; (从事某一活动的)方法，原则
+scrum : 相互拥挤的人群, (橄榄球的)并列争球; (橄榄球)并列争球的全体前锋
+cursorily : 粗糙地，疏忽地，马虎地
+succumb (to): 屈服; 屈从; 抵挡不住(攻击、疾病、诱惑等)
+prior : 优先的，占先的; 较重要的, 先前的，较早的，在前的; 
+paramount : 至上的; 至高无上的; 首要的; 至为重要的; 至尊的; 权力最大的
+proceed ： 继续; 接着做; 行进; 前往
+plumbing ： n. 	(建筑物的)管路系统，自来水管道; 水暖工的工作 v.探索; 钻研; 探究
+anomaly ： 异常; 异常事物; 反常现象
+bogged down : 深陷泥沼的; 停滞不前的
+overarching : 非常重要的; 首要的; 概莫能外的
+forgo : 放弃; 弃绝(想做的事或想得之物)
+lump : 把…归并一起(或合起来考虑); 把…混为一谈..
+granular : 由颗粒构成的; 含颗粒的; 似颗粒状的
+full-fledged : 成熟的; 完全合格的
+envision : 展望; 想象
+omit : 省略; 忽略; 遗漏; 漏掉; 删除; 不做; 未能做
+functionality : 实用; 符合实际; 设计目的; 设计功能; (计算机或电子系统的)功能
+haphazard : 随意的; 无秩序的; 无计划的; 组织混乱的 
+haphazardly : 偶然的
+speculaive : 推测的; 猜测的; 推断的; 揣摩的; 忖度的; 试探的; 风险性的
+generality : 概括性; 一般性; 概论; 普遍性; 概述; 通则; 主体; 大多数; 大部分; 笼统
+speculaive generality : 夸夸其谈的未来
+pitfall : 陷阱; 困难; 危险; (尤指)隐患
+prone : 有做…倾向的; 俯卧的; 易于遭受; 有做(坏事)的倾向; 易于遭受…的
+nuance : 细微的差别; (意义、声音、颜色、感情等方面的)细微差别
+magic bullet :  (解决某一问题的)灵丹妙药
+sentiel : 哨兵
+concatenate : 连接; 使连续（衔接）起来; 连锁; 串级
+semantic : 语义的
+judicious : 明智的; 明断的; 有见地的
+analogous : 相似的; 类似的
+analogy : 类比; 比拟; 比喻; 类推
+instantiate : 实例化
+invocation :  调用; 启用; (向神或权威人士的)求助;祈祷
+provoke : 激起; 引起; 引发; 挑衅; 激怒; 刺激
+invoke : 向（某人）请求帮助; 使产生，唤起，引起（感情或想象）; 调用; 用法术召唤(魔鬼)
+revoke : 撤销; 取消; 废除; 使无效
+compelling : 引人入胜的; 扣人心弦的; 非常强烈的; 不可抗拒的; 令人信服的
+open up : （使）（机会、可能性等）出现; （使）产生;
+prototype : 原型; 雏形; 最初形态
+descendant : 后代; 后裔; 子孙; (由过去类似物发展来的)派生物
+preceding : 先前的，较早的，在前的
+corollary : 推论; 必然的结果(或结论)
+skin deep : 肤浅; 肤深; 皮肤深层; 不文大丈夫; 容貌
+legitimate : 正当合理的; 合情合理的; 合法的;
+gregarious : 交际的; 合群的; 群居的
+author : 著作; 写作; 编写
+crunch : （快速大量地）处理信息;(嘎吱嘎吱地)嚼; (使)发出碎裂声; (在路上)行进发出响声; 
+macro : 巨大的；极厚的；特别突出的；大量使用的 n.宏
+fragment : 碎片; 片段
+directives : 指示; 命令
+caveat ： 警告; 告诫
+variable-length : 变长; 可变长度; 定长; 可变长; 可变长度的
+legacy : （计算机系统或产品）已停产的

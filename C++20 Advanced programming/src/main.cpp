@@ -1,0 +1,7 @@
+#include "hd.h"
+
+int main()
+{
+
+	return 0;
+}
