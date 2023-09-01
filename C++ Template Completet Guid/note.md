@@ -292,9 +292,9 @@
     ```
 
 
-<span id=Capter3><!--第三章起始处--></span>
+<span id=Chapter3><!--第三章起始处--></span>
 
-## 非参数模板
+## 非参数模板(NoneType Template)
 
 模板可以有固定参数, 但必须满足以下条件之一 :
 
@@ -316,7 +316,7 @@ C++ 17以后支持利用`auto`声明非参数模板(__nontype template__)
 
 <span id=Chapter4><!--第四章--></span>
 
-## 可变参数模板
+## 可变参数模板(Variadic Template)
 
 - sizeof...()
   C++11以后支持使用符号`...`表示可变参数模板列表。
@@ -386,7 +386,46 @@ C++ 17以后支持利用`auto`声明非参数模板(__nontype template__)
 
 - 可变参数模板与类
   类模板自然可以用可变参数, 如 `std::variant` 、 `std::tuple`
-  
+  可变参数模板甚至可以用在继承与using指令中:
+  ```cpp
+    
+    struct customer {
+        std::string name;
+
+        customer(const std::string& str) : name(str) {};
+    };
+
+    struct customerComp {
+        bool operator() (const customer& c1, const customer& c2) { return c1.name == c2.name; }
+    };
+
+    struct customerHash {
+        std::size_t operator(const customer& c1) { return std::hash<std::string>(c1.name); }
+    };
+
+    template<typename...Bases>
+    struct oper : Bases...
+    {
+        using Bases::operator()...;
+    }
+    
+  ```
+
+
+<span id=Chapter5><!--第五章起始--></span>
+
+## 技巧(Tricky Basics)
+
+- 关键字 *typename* 
+    `typename` 用于标识一个类型, 可以有效避免编译器的翻译错误 :
+    如表达式
+    ```cpp
+        typename T::Row_Type * ptr;
+    ``` 
+    用来声明一个指针类型, 若不加上`typename`, 可能会被翻译成乘法(`ptr` 与 `T::Row_Type`)
+
+- 零初始化 *zero initialization*
+  C++ 17 后支持零初始化, 即 `T x {}`这样的表达式对于内建类型会进行零初始化(`bool {false} 、 int (0) 、Pointer (nullptr) `) 
 
 
 </font><!--全局华文中宋-->
