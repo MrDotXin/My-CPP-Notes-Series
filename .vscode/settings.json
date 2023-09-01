@@ -52,6 +52,12 @@
         "numbers": "cpp",
         "format": "cpp",
         "span": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "complex": "cpp",
+        "string_view": "cpp",
+        "random": "cpp",
+        "valarray": "cpp"
     }
 }
