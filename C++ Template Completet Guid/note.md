@@ -164,6 +164,8 @@
     术语 __concept__ 是用来描述模板实例化时所需要支持的特定行为, 从C++20开始C++提供了`concept`关键字来描述这种
     行为。`requires` 来提供检测方法。  
      
+- __1.8 待决名__
+[待决名详细(cpprefference)](https://zh.cppreference.com/w/cpp/language/dependent_name)
 
 
 <span id=Chapter2><!--第二章起始处--></span>
@@ -427,7 +429,76 @@ C++ 17以后支持利用`auto`声明非参数模板(__nontype template__)
 - 零初始化 *zero initialization*
   C++ 17 后支持零初始化, 即 `T x {}`这样的表达式对于内建类型会进行零初始化(`bool {false} 、 int (0) 、Pointer (nullptr) `) 
 
+- 成员模板
+  使用成员模板可以给与类更大的灵活性。
+  - 如对复制行为的成员模板。
+  ```cpp
+    template<typename T>
+        typename<typename T2> 
+    const Stack<T>& operator=(const Stack<T2>& other) {
+        ...
+        return *this;
+    };
+  ```
+   同时也可以用与友元声明
+   ```cpp
+    template<typename U>
+    friend class Stack<U>;
+   ``` 
+   
+  - __这种方式也可以用于迭代器的思想中__, 如可以利用`std::vector<int>`初始化`std::unordered_set<T> 对象`
+  ```cpp
+    std::vector v {1, 2, 3, 4};
+    std::unordered_set st(v.begin(), v.end());
+  ```
 
+  - 成员模板允许单独实例化
+    ```cpp
+        struct A { 
+            template<typename T2>
+            T2 get() { return T2 {}; }
+        }
+
+        template<> inline bool A<T>::get<bool>() { return true; }
+
+    ```
+    __注意这里的实例化应该声明为inline以防止get被多次实例化而UB__
+
+  - __成员模板可以为构造函数, 但不算作特殊函数使用__
+  - 使用`template`消除待决名歧义
+    当显示调用对象的成员模板并显示提供参数时, 需要`template`关键字来声明`<`是模板参数列表而不是小于号.
+    ```cpp
+        template<auto N>
+        void print(const std::bitset<N>& bs) {
+            std::cout << (bs.template to_string<char, std::char_traits<char>, 
+                                                    std::allocator<int>>());
+        };
+    ```   
+    `.template`表示法(如`->template` 、 `::template`)应当用于模板内,
+  - __lambda 模板__
+    模板甚至适用于lambda:
+    ```cpp
+        template<typename T> auto d = [&](T x, T y) { return x + y; }
+        ...
+        auto di = d<int>(1, 2);
+    ```
+    也可以用`auto` (C++14)
+    ```cpp
+        auto d = [&](auto x, auto y) { return x + y; }
+    ```
+- __变量模板__
+   变量模板可以用于以模板参数声明对应的变量实例, 广泛用于标准库中后缀带`_v`之类的模板
+- __template template__ 模板参数
+   模板也可以作为参数 :
+   ```cpp
+    template<typename elem, template<typename> typename container>
+    class Stack {
+        ...
+        container<elem> m_Cont;
+    };
+   ```
+   注意在C++17以前, 模板模板类的默认模板参数没有被考虑, 所以需要显示指定, 但C++17开始则无需考虑此问题。
+   
 </font><!--全局华文中宋-->
 
 
